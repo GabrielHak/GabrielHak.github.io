@@ -2,7 +2,7 @@ const btnN = document.querySelector(".btnN");
 const btnP = document.querySelector(".btnP");
 
 const imgs = document.querySelectorAll(".img");
-const imgsA = ["img/html.png", "img/css.png", "img/javascript.png", "img/java.png"];
+const imgsA = ["img/html.png", "img/css.png", "img/javascript.png", "img/java.png", "img/python.png"];
 
 let cycle = 0;
 
