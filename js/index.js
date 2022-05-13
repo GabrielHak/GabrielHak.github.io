@@ -9,7 +9,7 @@ let cycle = 0;
 load(cycle);
 
 btnN.addEventListener("click", ()=>{
-    if(cycle < 4) cycle++;
+    if(cycle < 5) cycle++;
     else cycle = 1;
     load(cycle);
 });
