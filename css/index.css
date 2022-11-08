@@ -66,6 +66,11 @@ a {
   align-items: center;
 }
 
+.languages {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
 .txt1 {
   font-size: 5rem;
 }
@@ -138,9 +143,14 @@ h1, ul, li {
   z-index: -1;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   ul {
     width: 100%;
     justify-content: space-around;
+  }
+
+  footer {
+    justify-content: center;
+    align-content: center;
   }
 }
