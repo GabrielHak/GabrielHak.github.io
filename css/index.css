@@ -137,3 +137,10 @@ h1, ul, li {
   position: fixed;
   z-index: -1;
 }
+
+@media only screen and (max-width: 1000px) {
+  ul {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
