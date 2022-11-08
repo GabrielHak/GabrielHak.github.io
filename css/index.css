@@ -74,14 +74,12 @@ a {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-/* .languages div{
-} */
+.languages div{
+  /* background-color: red; */
+}
 
 .img-icon {
-  padding: 0%;
-  /* margin: 0;
-  width: 100%;
-  height: 100%; */
+  padding: 0%
 }
 
 .txt1 {
@@ -108,7 +106,7 @@ a {
   min-height: 100vh;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   padding: 0%;
 }
 
@@ -168,10 +166,15 @@ h1, ul, li {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
   .languages {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .img-icon {
+    width: 100px;
+    height: auto;
   }
 }
