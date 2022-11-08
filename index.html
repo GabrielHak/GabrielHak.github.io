@@ -1,66 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Web Designer</title>
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta name="keywords" content="webpage,page,web,create,first,easy,designer,desing">
-    <meta name="description" content="Portafolio personal y venta de paginas web">
-    <meta name="author" content="Roberto Gabriel Hak">
-    <meta name="copyright" content="Roberto Gabriel Hak">
-    <meta name="robots" content="index">
-    <link rel="stylesheet" href="css/indexStyle.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <script src="https://kit.fontawesome.com/6db6f0a02b.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header class="header">
-        <nav class="nav">
-            <img src="img/icon.png " alt="IconName" class="icon">
-            <div class="menu">
-                <a href="index.html" class="home">Home</a>
-                <a href="projects.html" class="projects">Projects</a>
-                <a href="contact.html" class="contac">Contact me</a>
-            </div>
-        </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Xanh Mono&effect=anaglyph"
+    />
+  </head>
+  <body>
+    <div id="particles-js"></div>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-    <main class="main">
-        <h1 class="pres-tittle">
-            Hi, I'm Gabriel
-        </h1>
-        <p>
-            I'm web developer and bachelor's degree in computer science student
-        </p>
-        <div class="languages">
-            <p>
-                Languages I speak:
-            </p>
-            <section class="languages-icons">
-                <div>
-                    <button class="btn btnP"><i class="fas fa-arrow-left"></i></button>
-                </div>
-                <div>
-                    <img src="img/html.png" alt="" class="img">
-                </div>
-                <div>
-                    <img src="img/css.png" alt="" class="img">
-                </div>
-                <div>
-                    <img src="img/javascript.png" alt="" class="img">
-                </div>
-                <div>
-                    <button class="btn btnN"><i class="fas fa-arrow-right"></i></button>
-                </div>
-            </section>
+    <section class="content about" id="about">
+      <p class="txt1 font-effect-anaglyph">Gabriel Hak</p>
+      <p class="txt2">
+        I'm web developer and bachelor's degree in computer science student
+      </p>
+      <p class="txt2">Languages I speak:</p>
+    </section>
+    <section class="content projects" id="projects">
+      <p class="txt3">My Projects</p>
+      <div class="grid-container">
+        <div class="grid-item">
+          <a href=""><img src="rsc/mathApp.jpeg" alt="" class="img-item" /></a>
         </div>
-    </main>
-    <footer class="footer">
-        <a href="https://linkedin.com/in/roberto-gabriel-hak-6988b71a2?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BfvSQSyZBRyKbJlHQ3JzBFA%3D%3D" target="_BLANK"> Visit my LinkdeIn</a>
-        <a href="https://github.com/GabrielHak" target="_BLANK"> Check my GitHub </a>
+      </div>
+    </section>
+    <footer class="contact" id="contact">
+      <p>
+        <a
+          href="https://www.linkedin.com/in/roberto-gabriel-hak-6988b71a2/"
+          target="_blank"
+        >
+          Visit My LinkedIn
+        </a>
+      </p>
+      <p>
+        <a href="https://github.com/GabrielHak" target="_blank">
+          Check my GitHub
+        </a>
+      </p>
     </footer>
-    <script src="js/index.js"></script>
-</body>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
 </html>
